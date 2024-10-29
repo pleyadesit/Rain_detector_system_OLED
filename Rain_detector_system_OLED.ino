@@ -9,7 +9,7 @@ Adafruit_SSD1306 display(-1);
 
 const int sensorPin = 2;   // Sensor lluvia
 const int ledPin = 3;      // LED alerta lluvia
-const int buzzerPin = 5;   // Buzzer alerta lluvia
+const int buzzerPin = 4;   // Buzzer alerta lluvia
 int lecturaSensor;
 
 // Bitmap de icono_lluvia Image
