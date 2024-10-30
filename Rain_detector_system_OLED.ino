@@ -7,9 +7,9 @@
 #define OLED_ADDR 0x3C
 Adafruit_SSD1306 display(-1);
 
-const int sensorPin = 2;   // Sensor lluvia
-const int ledPin = 3;      // LED alerta lluvia
-const int buzzerPin = 4;   // Buzzer alerta lluvia
+const int ledPin = 2;      // LED alerta lluvia
+const int buzzerPin = 3;   // Buzzer alerta lluvia
+const int sensorPin = 4;   // Sensor lluvia
 int lecturaSensor;
 
 // Bitmap de icono_lluvia Image
